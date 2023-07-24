@@ -310,4 +310,13 @@ else{
 	log.info "Test CAse has been failed..."
 	assert false
 }
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="9b1d6ae6-fce5-40b2-b84d-9c3eae3662fa" name="Alpha"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1b5ec64b-6a18-46f0-a4fd-b83094601136" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="AequalA" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Equal" id="868c232e-26ea-4178-b54d-7a0aee441bf8"><con:settings/><con:config><script>a ="A"
+b = "B"
+if(a == b){
+	log.info "Matching"
+}
+else{
+	log.info "Failling"
+	assert false
+}
 </script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>AddDataToReport</con:name><con:value>False</con:value></con:property><con:property><con:name>MongoDBIP</con:name><con:value>3.109.47.18</con:value></con:property><con:property><con:name>MongoDBPort</con:name><con:value>27017</con:value></con:property><con:property><con:name>KlovServerUrl</con:name><con:value>http://3.109.47.18</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
